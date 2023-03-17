@@ -10,14 +10,17 @@ p {
 }
 
 h3 {
-	/* color: hsl(218, 44%, 22%); */
+	color: hsl(218, 44%, 22%);
 	font-weight: 700;
-	font-size: 1.25rem;
+	font-size: 1.1rem;
+	text-align: center;
 	padding: 1rem;
 }
 
 p {
-	font-size: 1rem;
+	color: hsla(0, 0%, 1%, 0.5);
+	font-size: 0.8rem;
+	line-height: 0.5cm;
 	padding: 0 1rem;
 }
 
@@ -32,4 +35,5 @@ p {
 	background-color: white;
 	padding: 1rem;
 	border-radius: 8px;
+	box-shadow: 2px 3.5px 32px -0.5px #d5d5d5;
 }
